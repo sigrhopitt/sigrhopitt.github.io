@@ -9,8 +9,8 @@
   }
   
   #crest {
-      height: 100%;
-      width: 100%;
+      max-height: 100%;
+      max-width: 100%;
   }
   
   .footer {
@@ -20,11 +20,11 @@
   }
   
   .bropic {
-      height: 250px;
-      width: 250px;
+      max-height: 250px;
+      max-width: 250px;
   }
   
   .chapter {
-      height: 50%;
-      width: 50%;
+      max-height: 50%;
+      max-width: 50%;
   }
