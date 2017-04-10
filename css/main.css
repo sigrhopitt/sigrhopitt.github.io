@@ -20,11 +20,15 @@
   }
   
   .bropic {
-      max-height: 250px;
-      max-width: 250px;
+      max-height: 100%;
+      max-width: 100%;
   }
   
   .chapter {
       max-height: 50%;
       max-width: 50%;
+  }
+  
+  td {
+      text-align: center;
   }
