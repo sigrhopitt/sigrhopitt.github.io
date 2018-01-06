@@ -25,10 +25,21 @@
   }
   
   .chapter {
-      max-height: 50%;
-      max-width: 50%;
+      max-height: 100px;
+      max-width: 100px;
   }
   
   td {
       text-align: center;
+  }
+
+  .about { 
+      background: red;
+  }
+  .brothers {
+    background: black;
+  }
+
+  .chapters {
+      background: green;
   }
