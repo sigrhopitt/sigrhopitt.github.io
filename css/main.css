@@ -1,45 +1,62 @@
-  body {
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
-  }
-  
-  main {
-      flex: 1 0 auto;
-  }
-  
-  #crest {
-      max-height: 100%;
-      max-width: 100%;
-  }
-  
-  .footer {
-      background-color: #222222;
-      color: #9D9D9D;
-      width: 100%;
-  }
-  
-  .bropic {
-      max-height: 100%;
-      max-width: 100%;
-  }
-  
-  .chapter {
-      max-height: 100px;
-      max-width: 100px;
-  }
-  
-  td {
-      text-align: center;
-  }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
-  .about { 
-      background: red;
-  }
-  .brothers {
-    background: black;
-  }
+main {
+    flex: 1 0 auto;
+}
 
-  .chapters {
-      background: green;
-  }
+#crest {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #222222;
+    color: #9D9D9D;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+.about { 
+    background: red;
+}
+
+/* stuff for brothers section */
+.brothers {
+background: black;
+}
+/* .bropic {
+    max-height: 100%;
+    max-width: 100%;
+} */
+.brother {
+
+}
+
+/* stuff for chapters section*/
+.chapter {
+    text-align: center;
+}
+.chapter-seal {
+    max-height: 200px;
+    max-width: 200px;
+}
+.chapters {
+    background: green;
+}
+.chapters > h1 {
+    text-align: center;
+}
+.chapters > h3 {
+    text-align: center;
+}
+.chapters > h4 {
+    text-align: center;
+    
+}
