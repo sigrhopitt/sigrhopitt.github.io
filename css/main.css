@@ -19,17 +19,13 @@ main {
     width: 100%;
 }
 
-td {
-    text-align: center;
-}
-
 .about { 
     background: red;
 }
 
 /* stuff for brothers section */
 .brothers {
-background: black;
+    background: black;
 }
 /* .bropic {
     max-height: 100%;
