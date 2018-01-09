@@ -20,12 +20,14 @@ main {
 }
 
 .about { 
-    background: red;
+    /* background: red; */
 }
 
 /* stuff for brothers section */
 .brothers {
-    background: black;
+    /* background: black;
+    color: white; */
+    
 }
 /* .bropic {
     max-height: 100%;
@@ -40,11 +42,11 @@ main {
     text-align: center;
 }
 .chapter-seal {
-    max-height: 200px;
-    max-width: 200px;
+    height: 200px;
+    width: 200px;
 }
 .chapters {
-    background: green;
+    /* background: green; */
 }
 .chapters > h1 {
     text-align: center;
@@ -54,5 +56,9 @@ main {
 }
 .chapters > h4 {
     text-align: center;
-    
+}
+
+.banner_one {
+    background-image: url("../images/banners/pitt_panther.jpg");
+    background-size: cover;
 }
